@@ -1,0 +1,193 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    position: static;
+    background-color: #2D25A0;
+    height: 600px;
+    
+}
+.copa{
+    font-size: 64px;
+    margin-top: 206px;
+    margin-left: 150px;
+    font-weight: 800;
+}
+.anchor{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.banner{
+    margin-top: 160px;
+    height: 400px;
+    margin-right: 145px;
+    width: 450px;
+}
+/* players */
+.windows{
+        display: flex;
+        justify-content: center;
+        margin: 70px;
+}
+.messi{
+    height: 300px;
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     padding: 20px;    
+}
+.messi img{
+    height:300px;
+    width: 300px;
+    
+}
+.dybala{
+    height: 300px;
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 20px; 
+
+}
+.dybala img{
+    height: 300px;
+    width: 300px;
+}
+.ronaldo{
+    height: 300px;
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+
+
+}
+
+.ronaldo img{
+    height: 300px;
+    width: 300px;
+}
+.handset{
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+}
+    
+ .masut{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left: 10px;
+}
+
+.masut img{
+    height: 300px;
+    width: 300px;
+    
+}
+.salah{
+    height: 300px;
+    width: 300px;
+    padding: 20;
+    margin-top: 140px;
+    margin-left: 10px;
+}
+.salah img{
+    height: 300px;
+    width: 300px;
+}
+.maria{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left: 10px;
+}
+.maria img{
+    height: 300px;
+    width: 300px;
+}
+.mababa{
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    margin-top: 180px;
+}
+.kane{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+.kane img{
+    height: 300px;
+    width: 300px;
+}
+.bhaibon{
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    margin-top: 180px;
+}
+.neymar{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+.neymar img{
+    height: 300px;
+    width: 300px;
+}
+.dadi{
+    display: flex;
+    position: static;
+    margin-top: 150px;
+}
+.ranna{
+    font-size: 70px;
+    font-weight: 800;
+    color: gray;
+    background-color: black;
+    width: 500px;
+}
+.berselona{
+    display: flex;
+    position: static;
+}
+.dada{
+    margin-left: 150px;
+}
+footer img{
+    justify-content: center;
+    margin-top: 170px;
+    margin-left: 400px;
+    height: 100px;
+    width: 400px;
+}
+footer h1{
+    margin-left: 530px;
+    font-size: 40px;
+    color: rgb(114, 99, 99);
+}
+/*-------------
+ media query 
+ ------------------------*/
+ /* mobile divice */
+@media  only screen and (max-width:600px) {
+    .container{
+        background-color: white;
+    }
+    .windows , .handset , .mababa{
+        flex-direction: column;
+    }
+}
